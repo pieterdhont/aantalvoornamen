@@ -38,7 +38,7 @@ function toonTellingen() {
 //     .map(([naam, teller]) => `<li>${naam}: ${teller}</li>`)
 //     .join('');
 //   document.getElementById("naamInvoer").value = "";
-// };
+// }; 
 
 
 
