@@ -24,5 +24,21 @@ function toonTellingen() {
 }
  
 
+// Nog een tweede versie, na wat opzoekwerk. Meer gecomprimeerd, maar minder leesbaar/modulair
+
+// "use strict";
+
+// const naamTellingen = {};
+
+// document.getElementById('voegToeKnop').onclick = () => {
+//   const naam = document.getElementById("naamInvoer").value;
+//   naamTellingen[naam] = (naamTellingen[naam] || 0) + 1;
+//   console.log(naamTellingen);
+//   document.getElementById('naamTellingenLijst').innerHTML = Object.entries(naamTellingen)
+//     .map(([naam, teller]) => `<li>${naam}: ${teller}</li>`)
+//     .join('');
+//   document.getElementById("naamInvoer").value = "";
+// };
+
 
 
