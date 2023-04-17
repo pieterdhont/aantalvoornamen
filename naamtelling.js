@@ -22,7 +22,7 @@ function toonTellingen() {
   lijstElement.appendChild(lijstItem);
   }
 }
-
+ 
 
 
 
